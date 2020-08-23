@@ -9,8 +9,8 @@ class Backer
   end
   
   def back_project(project)
-    #backed_projects << project
-    project.add_backer(self)
+    backed_projects << project
+   # project.add_backer(self)
     
     # unless @backed_projects.each{|p| p == project}
     #   backed_projects << project
