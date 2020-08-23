@@ -12,7 +12,8 @@ class Project
     # backer.back_project(self)
     
     new_backer = Backer.new(backer)
-    @backer << new_backer
+    new_backer.back_project(self)
+    #@backer << new_backer
     
   end
   
